@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  /* overflow: hidden; */
+margin:30px 0 30px 0
 }
 .container {
   width: 85%;
@@ -24,6 +24,7 @@ body {
   margin: auto;
   font-family: Orbitron;
   font-weight: 400;
+  margin: 0 7px 0 7px;
 }
 .navbar-container div:first-child img {
   width: 120px;
@@ -31,6 +32,8 @@ body {
 
 .navbar-container .list .list-item {
   cursor: pointer;
+  font-size:1.5rem;
+  
 }
 
 .navbar-container .list .list-item:nth-child(1) {
@@ -184,10 +187,18 @@ body {
   .hero-container {
     display: block;
   }
+  .navbar-container .list .list-item {
+  cursor: pointer;
+  font-size:1rem;
+  
+}
   .hero-container .globe + div > img {
     top: 10px;
     width: 250px;
-    left: 20%;
+    left: 15%;
+  }
+  .hero-container .globe > img {
+        width: 45px;
   }
   .hero-container .square > img {
     width: 250px;
@@ -207,6 +218,7 @@ body {
   .hero-container .star:nth-child(2) {
     top: 50%;
     right: 0px;
+    display:none;
   }
   .hero-container .globe {
     left: 20px;
